@@ -1,3 +1,12 @@
 {
-    "MODULE.hello": "hello"
+    "MODULE.hello": "hello",
+    "CURRENCY-DISTRIBUTOR": {
+        "settings": {
+            "display-button": {
+                "name": "Display Currency Distributor button?",
+                "hint": "Controls whether or not the Currency Distributor menu can be opened from the player list."
+            }
+        },
+        "playerList-button-title": "Toggle open Currency Distributor menu"
+    }    
 }

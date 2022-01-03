@@ -1,9 +1,9 @@
 {
-  "name": "module",
-  "title": "New Module",
+  "name": "TLJ-currency-distributor",
+  "title": "__New Module",
   "description": "",
-  "version": "This is auto replaced",
-  "library": "false",
+  "version": "1",
+  
   "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
@@ -19,15 +19,20 @@
   ],
   "conflicts": [
     
-  ],
+  ],  
   "esmodules": [
-    "/scripts/module.js"
-  ],
-  "scripts": [
-    "/scripts/lib/lib.js"
+    "modules/init.mjs",
+    "modules/currency-distributor.js",
+    "modules/registerSettings.mjs"
+],
+  "scripts": [    
+    "scripts/lib/lib.js"
   ],
   "styles": [
-    "/styles/module.css"
+    "styles/module.css"
+  ],
+  "templates": [
+    "templates/main-menu.hbs"
   ],
   "languages": [
     {
